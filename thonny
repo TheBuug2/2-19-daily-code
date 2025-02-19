@@ -1,0 +1,44 @@
+def mult_table(n):
+
+    for i in range(11):
+        print(i, "*", n, "=", n*i)
+    
+
+
+mult_table(3)
+
+#-----------------------------------------------
+
+def battery_check(num):
+    if num == 100:
+        print("battery full")
+    elif num >= 50:
+        print("battery ok")
+    else:
+        print("battery low, please charge!")
+        
+battery_check(55)
+
+#-----------------------------------------------
+
+def vowels(word):
+    
+    for i in word:
+        if i == 'a' or i == 'e' or i == 'i' or i == 'o' or i == 'u': #check 3 more
+            print("*")
+        else:
+            print(i)
+        
+        
+vowels("lonebear")
+
+#-----------------------------------------------
+
+def pizza(d, p):
+    r=d/2
+    area = 3.14*r*r
+    print(p/area)
+    
+pizza(8, 10)
+    
+    
